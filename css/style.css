@@ -1,0 +1,403 @@
+body {
+ 
+  font-weight: 400;
+height:100%;
+   width:100%;
+ font-family: Univers, BlinkMacSystemFont, Roboto, sans-serif;
+
+
+
+
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+ text-decoration:none;
+  transition: all 0.5s;
+
+}
+a:hover {
+  opacity: 0.90;
+}
+
+
+/* Header and nav */
+nav ul {
+  list-style-type: none;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.25);
+  z-index: 3;
+
+}
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color:aqua;
+}
+nav {
+  display: inline-block;
+  position: absolute;
+  right: -100%;
+  top: 3.5em;
+  height: 100%;
+  background: rgba(48,48,48,0.75);
+  min-height: 100vh;
+  width: 75%;
+  max-width: 15em;
+  transition: right 0.5s ease;
+  overflow:scroll;
+   text-decoration: none;
+   z-index: 3;
+
+
+}
+nav ul {
+    display: block;
+    margin: 0;
+
+}
+nav li {
+  display: block;
+  margin: 1.5em 1.5em;
+  text-align: center;
+  color:yellow;
+  padding-bottom:3em;
+  z-index: 1;
+}
+.nav-toggle {
+  cursor: pointer;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+.nav-active nav {
+    right: -1em;
+
+
+     }@media (max-width:600px){
+
+
+}
+main { 
+  margin-top: 2em; 
+  background-repeat: repeat-y;
+  background-size: 100%;
+  min-height: 100vh;
+  height: auto;
+  max-width: 50em;
+  margin: 0 auto;
+  padding-top: 2em;
+
+
+}
+
+
+ small {
+  display:block;
+  font-family: :Univers, sans-serif ;
+ 
+ }
+h1
+{
+font-family: Univers,sans-serif;
+font-size: 4.5em;
+color: goldenrod;
+text-shadow: 2px 3px black;
+text-align: center;
+padding-top: 1em;
+line-height: 1.5em;
+
+
+}
+h2
+{
+font-family: Univers,sans-serif;
+font-size: 3.5em;
+color: goldenrod;
+text-shadow: 2px 3px black;
+text-align: center
+
+
+
+
+
+
+
+
+
+
+
+}
+p { text-align:justify;
+  margin: 0 0 1em 0;
+  max-width: 50em;
+  text-indent: 1em;
+  padding-top: 2em;
+  font-family: Univers,sans-serif;
+  color:black;  
+  font-size: 1em;
+
+
+}
+li a:hover {
+    color: yellow;
+
+
+
+}
+
+@-webkit-keyframes starPulse
+from { opacity: 1; }
+ to   { opacity: 0.2; }
+}
+
+
+
+
+}
+
+@-moz-keyframes starPulse
+ from { opacity: 0.1; }
+  to   { opacity: 0.2; }
+}
+}
+
+@keyframes starPulse {
+  from { opacity: 1; }
+  to   { opacity: 0.2; }
+ 
+}
+}
+
+@keyframes sunFire {
+  from { -web-box-shadow: 0 0 50px #f5c91a
+    -web-box-shadow: 0 0 50px #f5c91a
+    -web-box-shadow: 0 0 50px #f5c91a
+
+    } to {
+      -web-box-shadow: 0 0 100px #f5c91a
+    -web-box-shadow: 0 0 100px #f5c91a
+    -web-box-shadow: 0 0 100px #f5c91a
+
+
+}
+
+
+
+
+
+}
+
+@-webkit-keyframes sunFire {
+  from { -web-box-shadow: 0 0 50px #f5c91a
+    -web-box-shadow: 0 0 50px #f5c91a
+    -web-box-shadow: 0 0 50px #f5c91a
+
+    } to {
+      -web-box-shadow: 0 0 100px #f5c91a
+    -web-box-shadow: 0 0 100px #f5c91a
+    -web-box-shadow: 0 0 100px #f5c91a
+}
+
+}
+@-moz-keyframes sunFire {
+  from { -web-box-shadow: 0 0 50px #f5c91a
+    -web-box-shadow: 0 0 50px #f5c91a
+    -web-box-shadow: 0 0 50px #f5c91a
+
+    } to {
+      -web-box-shadow: 0 0 100px #f5c91a
+    -web-box-shadow: 0 0 100px #f5c91a
+    -web-box-shadow: 0 0 100px #f5c91a
+
+}
+}
+@-o-keyframes sunFire {
+  from { -web-box-shadow: 0 0 50px #f5c91a
+    -web-box-shadow: 0 0 50px #f5c91a
+    -web-box-shadow: 0 0 50px #f5c91a
+
+    } to {
+      -web-box-shadow: 0 0 100px #f5c91a
+    -web-box-shadow: 0 0 100px #f5c91a
+    -web-box-shadow: 0 0 100px #f5c91a
+
+
+}
+
+@keyframes spin {
+  from {transform:rotate(0);}
+  to {transform:rotate(360deg)}
+}
+
+}
+
+@-webkit-keyframes spin {
+  from {transform:rotate(0);}
+  to {transform:rotate(360deg)}
+}
+
+
+}
+
+@-moz-keyframes spin {
+  from {transform:rotate(0);}
+  to {transform:rotate(360deg)}
+}
+}
+
+@-o-keyframes spin {
+  from {transform:rotate(0);}
+  to {transform:rotate(360deg)}
+
+    
+}
+
+
+#universe {
+  background:black;
+  
+     background: radial-gradient(#555, #000);
+}
+
+#stars {
+  position: relative;
+  z-index: 2;
+  background: url("img/stars.png");
+  height:100%;
+  width:100%;
+ 
+  animation: starpulse 4s infinite alternate;
+}
+
+
+#sun {
+  position: absolute;
+  top:50%;
+  left:50%;
+  z-index: 4;
+  height:200px;
+  margin-top:-100px;
+  margin-left:-100px;
+  width:200px;
+  -webkit-border-radius:100%;
+  -moz-border-radius:100%;
+  border-radius:100%;
+  background:orange;
+   background: -webkit-radial-gradient(#f5c313, #ec7e08);
+   background: -moz-radial-gradient(#f5c313, #ec7e08);
+    background: -o-radial-gradient(#f5c313, #ec7e08);
+     background: radial-gradient(#f5c313, #ec7e08);
+     -webkit-box-shadow: 0 0 50px #f5c91a;
+     -moz-box-shadow: 0 0 50px #f5c91a;
+     box-shadow: 0 0 50px #f5c91a;
+     
+        animation: sunFire 4s infinite alternate;
+
+
+}
+
+
+#earthOrbit {
+
+  position: absolute;
+  top:60%;
+  left:50%;
+  margin-top:-300px;
+  margin-left:-300px;
+height:600px;
+width:600px;
+z-index: 2;
+-webkit-border-radius:100%;
+-moz-border-radius:100%;
+border-radius:100%;
+animation: spin 30s linear infinite;
+}
+
+#earthOrbit.pause {
+  animation: spin 0s linear infinite;
+}
+
+
+#earth {
+position: absolute;
+top:50%;
+left:0;
+margin-top:-40px;
+
+
+-webkit-animation: spin 100s linear infinite;
+-moz-animation: spin 100s linear infinite;
+-o-animation: spin 100s linear infinite;
+animation: spin 100s linear infinite;
+}
+
+
+#moonOrbit {
+
+  height:120px;
+  width:120px;
+  position: absolute;
+  z-index: 4;
+
+ top:50%;
+  left:-20px;
+  margin-top: -60px;
+  -webkit-border-radius:100%;
+-moz-border-radius:100%;
+border-radius:100%;
+}
+
+
+
+#moon {
+  height:20px;
+  width:20px;
+  background:white;
+  background: -webkit-radial-gradient(#ddd,#888)
+  background: -moz-radial-gradient(#ddd,#888)
+  background: radial-gradient(#ddd,#888)
+   -webkit-border-radius:100%;
+-moz-border-radius:100%;
+border-radius:100%;
+
+
+
+
+animation: spin 200s linear infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 40em) {
+  .imgstyle{
+width:50%;
+height: 50%;
+position: center;
+ padding-left:8em; 
+padding-bottom: 30em;
+z-index: 1;
+
+
+
+
+   
